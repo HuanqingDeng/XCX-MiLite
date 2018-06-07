@@ -1,0 +1,56 @@
+<view class="page"  >
+    <view >
+    <view class="page_hd" >
+        <swiper class="section" indicator-dots="true" indicator-active-color="#fff" autoplay="true" interval="4000" duration="500">
+            <block>
+                <swiper-item>
+                    <image src="{{goodds.image}}" />
+                </swiper-item>
+            </block>
+        </swiper>
+    </view>
+    <view class="page_bd">
+        <view class="title">{{goodds.title}}</view>
+        <view class="desc">{{goodds.desc}}</view>
+        <view class="pric">{{goodds.price}}元</view>
+    </view>
+</view>
+    <view class="page_fd ">
+        <view class="weui-cells">
+            <navigator class="weui-cell weui-cell_access" hover-class="weui-cell_active" url="myorder/myorder">
+                <view class="weui-cell__bd">已选</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+            <navigator class="weui-cell weui-cell_access" hover-class="weui-cell_active" url="myCoupon/myCoupon">
+                <view class="weui-cell__bd">保修</view>
+                <view class="weui-cell__ft  weui-cell__ft_in-access"></view>
+            </navigator>
+        </view>
+    </view>
+    <view class="say">
+        <view class="top">
+            <text class="left">用户评价</text>
+            <text class="right">查看全部评价</text>  
+        </view>     
+        <view>
+            <image class="personImg" src="{{person.personImg}}"/>
+            <text class="Nickname">{{person.nickname}}</text>
+            <view class="content">{{person.content}}</view>
+        </view>
+    </view>
+    <view class="goodsdesc">
+        <text class="desc">概述</text>
+        <text class="canshu">参数</text>
+    </view>
+    <view class="buy">
+        <view class="image">
+            <image src="../../image/41.png"/>
+        </view>
+        <text class="order" bindtap="tocart">
+            加入购物车
+        </text>
+        <text class="buy1">
+            立即购买
+        </text>
+    </view>
+</view>

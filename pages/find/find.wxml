@@ -1,0 +1,27 @@
+<view class="page">
+<view class="page-hd">
+    <navigator class="nav" url="myF/myF">
+        <image src="../../image/appoint.png"/>
+        <text class="title">新品预约</text>
+    </navigator>
+    <navigator class="nav" url="myF/myF">
+        <image src="../../image/remote.png"/>
+        <text class="title">活动频道</text>
+    </navigator>
+    <navigator class="nav" url="myF/myF">
+        <image src="../../image/store.png"/>
+        <text class="title">线下门店</text>
+    </navigator>
+    <navigator class="nav navright" url="myF/myF">
+        <image src="../../image/bypage.png"/>
+        <text class="title">小米团购</text>
+    </navigator>
+</view>
+<view class="goods" wx:for="{{goodds}}" wx:key="{{item}}" >
+    <image class="goods-image"src="{{item.image}}"/>
+    <view class="des">
+        <view class="goods-title">{{item.title}}</view>
+        <view class="goods-detail">{{item.detail}}</view>
+    </view>  
+</view>
+</view>

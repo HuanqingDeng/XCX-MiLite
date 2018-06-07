@@ -1,0 +1,70 @@
+.page{
+  background: rgb(235, 234, 234);
+  box-sizing: border-box
+}
+.section{
+    width: 100%;
+    height: 400rpx;
+}
+ .section image{
+  width: 100%;
+  height: 100%;
+}
+.goodsList{
+  display: inline-block;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  box-sizing: border-box;
+}
+.goodsList .ListButton{
+  display: inline-block;
+  width: 100%;
+  background: #fff;
+  box-sizing: border-box;
+}
+.goodsList .ListButton image{
+  width: 370rpx;
+  height: 300rpx;
+  margin-right: 5rpx;
+}
+.goodsList .block{
+  display: block;
+  width: 750rpx;
+  height: 100rpx;
+}
+.goodsList .block .imgbut{
+  background: #fff;
+}
+.goodsList .block image{
+  display: block;
+  width: 750rpx;
+  height: 500rpx;
+}
+.goodsList .ListButton .title,.disc{
+  /* display: flex; */
+  display: block;
+  /* font-size: 25rpx; */
+  color: rgb(34, 34, 34);
+  margin-top: 10rpx; 
+  padding-left: 40rpx;
+  box-sizing: border-box;
+}
+
+ .pric{
+  display: inline-block;
+  /* padding-left: 20rpx; */
+  box-sizing: border-box
+}
+.title{
+  font-size: 30rpx;
+  color: #000;
+}
+.disc{
+  font-size: 25rpx;
+  color: rgb(109, 106, 106);
+}
+.pric{
+  font-size: 30rpx;
+  color: red;
+  margin-left: 30rpx;
+}

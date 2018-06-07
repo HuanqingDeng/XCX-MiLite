@@ -1,0 +1,66 @@
+{
+  "pages": [ 
+    "pages/index/index",
+    "pages/index/search/search",
+    "pages/buy/buy",
+    "pages/cart/cart",
+    "pages/index/mbPhone/mbPhone",
+    "pages/index/newGs/newGs",
+    "pages/category/category",
+    "pages/find/find",
+    "pages/user/setting/setting",
+    "pages/user/user",
+    "pages/logs/logs",
+    "pages/user/myorder/myorder",
+    "pages/user/myF/myF",
+    "pages/user/myCoupon/myCoupon",
+    "pages/index/TV/Tv",
+    "pages/index/PC/PC",
+    "pages/index/zhiNeng/zhiNeng"
+   
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#b7b7b7",
+    "selectedColor": "#d81e06",
+    "borderStyle": "#f5f5f5",
+    "backgroundColor": "#f5f5f5",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/11.png",
+        "selectedIconPath": "image/12.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "iconPath": "image/21.png",
+        "selectedIconPath": "image/22.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "iconPath": "image/31.png",
+        "selectedIconPath": "image/32.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "image/41.png",
+        "selectedIconPath": "image/42.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "image/51.png",
+        "selectedIconPath": "image/52.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+.page{
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgb(235, 235, 235);
+}
+.cart-header{
+    margin-top: 10rpx;
+    display: flex;
+    width: 100%;
+    height: 100rpx;
+    background: #fff;
+    align-items: center
+}
+.cart-header .image image{
+    display: inline-block;
+    height: 80rpx;
+    width: 80rpx;
+    /* background: #000; */
+    margin-left: 100rpx;
+    margin-top: 10rpx;
+}
+.cart-header .title{
+    font-size: 30rpx;
+    line-height: 80rpx;
+    margin-left: 30rpx;
+    width: 400rpx;
+    overflow: hidden;
+}
+.cart-header .price{
+    font-size: 30rpx;
+    line-height: 80rpx;
+    position: absolute;
+    right: 10rpx;
+    color: red;
+}
+.cart-footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90rpx;
+    line-height: 90rpx;
+    padding:0 100rpx 0 80rpx;
+    box-sizing: border-box;
+    color: rgb(39, 37, 37);
+    background: #fff;
+    border-top:0.3px solid rgb(204, 202, 202) ;
+    box-sizing: border-box
+}
+.total-select{
+    position: absolute;
+    left: 20rpx;
+    top: 25rpx;
+    width: 30rpx;
+    height: 30rpx;
+
+}
+.selAl{
+    font-size: 30rpx;
+}
+.order-icon{
+    position: absolute;
+    right: 40rpx;
+    top: 25rpx;
+    width: 45rpx;
+    height: 45rpx;
+    background-size: 100%;
+}
+.cart-total-price{
+    display: inline-block;
+    margin-left: 185rpx;
+}
+.pricCount{
+    color: red;
+    margin-left: 10rpx;
+    font-size: 30rpx;
+}
+.pay{
+    display: inline-block;
+    background: rgb(238, 68, 68);
+    height: 90rpx;
+    width: 200rpx;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 32rpx;
+}

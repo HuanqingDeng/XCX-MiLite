@@ -1,0 +1,56 @@
+.weui-search-bar{
+    background: #FF4500;
+    border: 0;
+  }
+.text{
+    color: #fff;
+    width: 100rpx;
+    text-align:center;
+    font-size: 30rpx;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+.result{
+    position: absolute;
+    top: 100rpx;
+    width: 100%;
+    height: auto;
+    /* background: rgb(138, 66, 66); */
+    /* margin-left: 50rpx; */
+}
+.list{
+    /* margin-top: 10rpx; */
+    /* background: rgb(136, 115, 115); */
+    width: 100%;
+    height: 150rpx;
+    border-bottom: 0.5px solid rgb(214, 211, 211); 
+}
+.result image{
+    margin-top: 15rpx;
+    height: 120rpx;
+    width: 120rpx;
+    margin-left: 25rpx;
+    box-sizing: border-box
+}
+.result text{
+    display: block;
+}
+.result .title{
+   position: relative;
+   right: -190rpx;
+   top: -150rpx;
+}
+.result .desc{
+    position: relative;
+    right:-190rpx;
+    top: -160rpx;
+    font-size: 30rpx;
+    color:rgb(99, 96, 96)
+ }
+ .result .price{
+    position: relative;
+    right:-180rpx;
+    top: -160rpx;
+    color: red
+ }

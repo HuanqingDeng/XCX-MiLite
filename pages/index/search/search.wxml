@@ -1,0 +1,19 @@
+<view class="weui-search-bar" id="searchBar">
+    <view class="weui-search-bar__form">
+        <view class="weui-search-bar__box">
+            <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+            <input type="text" bindinput="input" class="weui-search-bar__input" placeholder="搜索商品" />
+        </view>
+    </view>
+    <view class="text" bindtap="search" disbaled>搜索</view>
+</view>
+<view class="result">
+    <view class="" bindtap="toDetail" wx:for="{{newList}}" wx:key="{{id}}" data-index="{{index}}">
+        <view class="list">
+            <image src="{{item.image}}" />
+            <text class="title">{{item.title}}</text>
+            <text class="desc">{{item.desc}}</text>
+            <text class="price">{{item.price}}元</text>
+        </view>
+    </view>
+</view>

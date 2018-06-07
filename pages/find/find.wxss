@@ -1,0 +1,74 @@
+.page{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgb(235, 235, 235);
+}
+.page-hd{
+    width: 100%;
+    margin-bottom: 30rpx;
+    border-bottom: 0.5px solid rgb(216, 212, 212);
+    box-sizing: border-box;
+    background: #fff;
+}
+.nav{
+    display: inline-block;
+    width: 25%;
+    height: 2.5rem;  
+    border-right: 0.5px solid rgb(221, 219, 219);
+    box-sizing: border-box
+}
+.page-hd .navright{
+    border-right: 0 solid transparent;
+}
+.nav image{
+    width:60rpx; 
+    height: 60rpx;
+    margin: 0 auto;
+    margin-left: 50%;
+    transform: translateX(-50%)
+}
+.nav .title{
+    display: block;
+    text-align: center;
+    font-size: 30rpx;
+    color: rgba(0, 0, 0, 0.747)
+}
+.goods{
+    width: 730rpx; 
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.5px solid rgb(212, 210, 210);
+    margin-bottom: 20rpx;
+    border-radius: 7rpx;
+    box-sizing: border-box;
+    box-shadow:0 0 1px 1px rgb(201, 200, 200) ;
+    z-index: 100;
+}
+.goods .goods-image{
+    width: 100%;
+}
+.goods .des{
+    width: 100%; 
+    height: 100rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center   
+}
+.goods .des view{
+    display: inline-block;
+    font-size: 30rpx;
+    color: rgba(0, 0, 0, 0.74);
+
+}
+.goods .des .goods-title{
+    width: 60rpx;
+    height: 30rpx;
+    font-size: 20rpx;
+    color: #fff;
+    background: rgb(248, 58, 25);
+    text-align: center;
+    border-radius: 7rpx;
+
+}

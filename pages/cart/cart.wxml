@@ -1,0 +1,21 @@
+<view class="page">
+    <view class="cart-header" wx:for="{{carMsg}}" wx:key="{{item}}">
+            <icon wx:if="{{item.selected}}" type="success"color="red"
+            data-index="{{index}}"class="cart-pro-select" bindtap="selectList"/>
+            <icon wx:else type="circle"color="red"
+            data-index="{{index}}"class="cart-pro-select" bindtap="selectList"/>
+        <view class="image">
+            <image src="{{item.image}}" />
+        </view>
+        <text class="title">{{item.title}}</text>
+        <text class="price">{{item.price}}元</text>
+    </view>
+    <view class="cart-footer">
+        <icon wx:if="{{selectAllStatus}}" type="success_circle" class="total-select" color="red" bindtap="selectAll" />
+        <icon wx:else type="circle" class="total-select" color="#010" bindtap="selectAll" />
+        <text class="selAl">全选</text>
+        <text class="cart-total-price">合计:</text>
+        <text class="pricCount">{{totalPrice}}元</text>
+        <text class="pay">结算{{totalPrice}}元</text>
+    </view>
+</view>

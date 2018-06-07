@@ -1,0 +1,128 @@
+.page{
+    height: auto;
+    box-sizing: border-box;
+    background: rgb(153, 151, 151);
+}
+.section{
+    height: 600rpx;
+    width: 100%;
+    background: rgb(145, 161, 131);
+}
+.section image{
+    height: 100%;
+    width: 100%;
+    /* background: #000; */
+}
+.page_bd{
+    height: auto;
+    width: 100%;
+    background: #fff;
+}
+.page_bd .title,.desc,.pric{
+    padding-left: 20rpx;
+    padding-top: 10rpx;
+}
+.weui-cell__bd{
+    font-size: 27rpx;
+}
+.say{
+    background: #fff;
+    margin-bottom: 10rpx;
+    border-bottom: 1rpx solid rgb(177, 177, 177);
+}
+.say .top{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    height: 100rpx;
+    padding-left: 20rpx;
+    padding-right: 20rpx;
+    border-bottom: 0.5rpx solid rgb(184, 183, 183);
+}
+.say .top .left{
+    padding-top: 20rpx;
+    float: left;
+}
+.say .top .right{
+    padding-top: 20rpx;
+    float: right;
+    font-size: 30rpx;
+    color: rgb(158, 154, 154)
+}
+.say .personImg{
+    display: inline-block;
+    margin: 30rpx;
+    height: 100rpx;
+    width: 100rpx;
+    border-radius: 50%;
+}
+.say .Nickname,.content{
+    font-size: 25rpx;
+}
+.say .Nickname{
+    position: relative;
+    top: -70rpx;
+}
+.say .content{
+    width: 500rpx;
+    position: relative;
+    top: -70rpx;
+    right: -160rpx;
+}
+.page_bd{
+    background: #fff;
+    display: inline-block;
+}
+.page_bd .desc{
+    font-size: 25rpx;
+    color: rgb(141, 136, 136)
+}
+.page_bd .title{
+    font-size: 35rpx;
+    
+}
+.page_bd .pric{
+    font-size: 25rpx;
+    color:red;
+}
+.goodsdesc{
+    background: #fff;
+    display: flex;
+}
+.goodsdesc .desc,.canshu{
+    display: inline-block;
+    flex: 1;
+    text-align: center;
+    /* line-height: 100%; */
+}
+.buy{
+    position: fixed;
+    bottom: 0;
+    width: 100%;   
+    display: inline-block;
+    display: flex;
+    background: #FFF;
+    border-top: 0.5rpx solid rgb(201, 199, 199);
+    box-sizing: border-box
+    
+}
+.buy .image image{
+    width: 100rpx;
+    height: 100rpx;
+    float: left;
+    flex: 1
+}
+.buy .order,.buy1{
+    display: inline-block;
+    flex: 1;
+    text-align: center;
+    line-height: 100%;
+    color: #fff
+      
+}
+.buy .order{
+    background: rgb(245, 63, 18);
+}
+.buy .buy1{
+    background: rgb(221, 73, 54);
+}

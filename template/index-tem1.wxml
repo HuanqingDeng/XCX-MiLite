@@ -1,0 +1,12 @@
+<template name="index-tem1">
+    <view class="goodsList" wx:for="{{goodsList}}" wx:key="{{id}}" >
+        <view class="ListButton {{item.isBlock?'block':''}}" data-index="{{index}}" bindtap="toDetail">
+                <image src="{{item.image}}" />
+                <view class="imgbut">
+                <text class="title">{{item.title}}</text>
+                <text class="disc">{{item.desc}}</text>
+                <text class="pric">{{item.price}}元</text>
+                </view>
+        </view>
+    </view>
+</template>

@@ -1,0 +1,44 @@
+<view class="page">
+    <view class="weui-cells">
+        <navigator class="weui-cell weui-cell_access head" hover-class="weui-cell_active">
+            <view class="weui-cell__hd">
+                <image src="{{userInfo.image}}" />
+            </view>
+            <view class="weui-cell__bd">
+                <view class="name">{{userInfo.name}}</view>
+            </view>
+        </navigator>
+    </view>
+    <view class="weui-cells">
+        <navigator class="weui-cell weui-cell_access" hover-class="weui-cell_active" url="myorder/myorder">
+            <view class="weui-cell__hd">
+                <image src="../../image/order.png" />
+            </view>
+            <view class="weui-cell__bd">我的订单</view>
+            <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+        <navigator class="weui-cell weui-cell_access" hover-class="weui-cell_active" url="myCoupon/myCoupon">
+            <view class="weui-cell__hd">
+                <image src="../../image/coupon.png" />
+            </view>
+            <view class="weui-cell__bd">我的优惠券</view>
+            <view class="weui-cell__ft  weui-cell__ft_in-access"></view>
+        </navigator>
+        <navigator class="weui-cell weui-cell_access" hover-class="weui-cell_active" url="myF/myF">
+            <view class="weui-cell__hd">
+                <image src="../../image/f.png" />
+            </view>
+            <view class="weui-cell__bd">我的F码</view>
+            <view class="weui-cell__ft  weui-cell__ft_in-access"></view>
+        </navigator>
+    </view>
+        <view class="weui-cells">
+            <navigator class="weui-cell weui-cell_access" hover-class="weui-cell_active" url="setting/setting">
+                <view class="weui-cell__hd">
+                    <image src="../../image/setting.png" />
+                </view>
+                <view class="weui-cell__bd">设置</view>
+                <view class="weui-cell__ft  weui-cell__ft_in-access"></view>
+            </navigator>
+        </view>
+</view>

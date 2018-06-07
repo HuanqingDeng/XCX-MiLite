@@ -1,0 +1,19 @@
+<view class="page">
+    <view class="page-hd">
+        <image src="../../../image/mi.jpg" />
+        <view class="page-hd__title">
+            <view >小米商城Lite</view>
+            <view >v1.2.64</view>
+        </view>
+    </view>
+    <view class="page-bd">
+            <view ><text>如何补够小米手机意外险</text></view>
+            <view class="midde"><text>把小米商城Lite放到手机桌面</text></view>
+            <view ><text>联系客服</text></view>
+    </view>
+    <view class="page-fd">
+        <view class="weui-loadmore weui-loadmore_line">
+            <text class="weui-loadmore__tips">小米商城</text>
+        </view>
+    </view>
+</view>
