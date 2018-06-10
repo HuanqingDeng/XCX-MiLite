@@ -8,7 +8,8 @@ Page({
   data: {
     inputValue:'',
     goodsList:[],
-    newList:[]
+    newList:[],
+    hidden:false
   },
 
   /**
@@ -51,7 +52,8 @@ Page({
     }
     // console.log(temp);
     this.setData({
-      newList:temp
+      newList:temp,
+      hidden:true
     })
     // console.log(this.data.newList)
   },
@@ -64,6 +66,31 @@ Page({
     // console.log(app.globalData.detail)
     wx.navigateTo({
       url: '../../buy/buy',
+    })
+  },
+  toPhone:function(){
+    wx.navigateTo({
+      url: './../mbPhone/mbPhone',
+    })
+  },
+  toTV:function(){
+    wx.navigateTo({
+      url: './../TV/Tv',
+    })
+  },
+  toPC:function(){
+    wx.navigateTo({
+      url: './../PC/PC',
+    })
+  },
+  toZn:function(){
+    wx.navigateTo({
+      url: './../zhiNeng/zhiNeng',
+    })
+  },
+  toNew:function(){
+    wx.navigateTo({
+      url: './../newGs/newGs',
     })
   },
   /**

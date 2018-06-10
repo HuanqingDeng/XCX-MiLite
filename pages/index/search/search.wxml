@@ -7,6 +7,13 @@
     </view>
     <view class="text" bindtap="search" disbaled>搜索</view>
 </view>
+<view class="sear {{hidden?'on':''}}">
+    <text class="searChoose" bindtap="toPhone">手机</text>
+    <text class="searChoose"bindtap="toTV">电视</text>
+    <text class="searChoose"bindtap="toPC">电脑</text>
+    <text class="searChoose"bindtap="toZn">智能</text>
+    <text class="searChoose"bindtap="toNew">新品</text>
+</view>
 <view class="result">
     <view class="" bindtap="toDetail" wx:for="{{newList}}" wx:key="{{id}}" data-index="{{index}}">
         <view class="list">

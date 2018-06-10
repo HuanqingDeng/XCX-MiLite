@@ -6,10 +6,27 @@
     color: #fff;
     width: 100rpx;
     text-align:center;
-    font-size: 30rpx;
+    font-size: 25rpx;
     margin-top: auto;
     margin-bottom: auto;
 
+}
+.searChoose{
+    display: inline-block;
+    width: 100rpx;
+    height: 40rpx;
+    background: #fff;
+    text-align: center;
+    margin-left: 30rpx;
+    margin-right: 20rpx;
+    margin-top: 20rpx;
+    font-size: 25rpx;
+    color: rgb(36, 35, 35);
+    border: 0.5px solid rgb(145, 143, 143);
+    box-sizing: border-box;
+}
+.on{
+    display:none;
 }
 .result{
     position: absolute;
@@ -39,18 +56,20 @@
 .result .title{
    position: relative;
    right: -190rpx;
-   top: -150rpx;
+   top: -138rpx;
+   font-size: 30rpx;
 }
 .result .desc{
     position: relative;
     right:-190rpx;
-    top: -160rpx;
-    font-size: 30rpx;
+    top: -135rpx;
+    font-size: 25rpx;
     color:rgb(99, 96, 96)
  }
  .result .price{
     position: relative;
     right:-180rpx;
-    top: -160rpx;
-    color: red
+    top: -140rpx;
+    color: red;
+    font-size: 30rpx;
  }
