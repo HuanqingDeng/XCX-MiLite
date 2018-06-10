@@ -16,7 +16,7 @@ Page({
    */
   onLoad: function (options) {
     wx.request({
-      url: 'https://www.easy-mock.com/mock/5b1677ed69f2393736205e51/indexgoodList',
+      url: 'https://www.easy-mock.com/mock/5b1ca08841e3435437657cdc/search',
       success: (res)=>{
         this.setData({
           goodsList:res.data.data
@@ -43,7 +43,7 @@ Page({
       return false
     }else{
       for(let i=0;i<goods.length;i++){
-        console.log(re.test(goods[i].title))
+        // console.log(re.test(goods[i].title))
         if(re.test(goods[i].title)){
           temp.push(goods[i]);
         }
@@ -53,7 +53,7 @@ Page({
     this.setData({
       newList:temp
     })
-    console.log(this.data.newList)
+    // console.log(this.data.newList)
   },
   toDetail:function(e){
     var index=e.currentTarget.dataset.index;

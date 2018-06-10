@@ -1,4 +1,5 @@
 // pages/category/category.js
+const app = getApp()
 Page({
 
   /**
@@ -28,7 +29,7 @@ Page({
     toView:'shouji',
     curIndex:0
   },
-
+  
   /**
    * 生命周期函数--监听页面加载
    */
@@ -40,13 +41,27 @@ Page({
         this.setData({
           detail:res.data.data
         })
-        console.log(this.data.detail)
+        // console.log(this.data.detail)
       }
     })
   },
+  toDetail:function(e){
+    var index=e.currentTarget.dataset.index;
+    console.log(index) 
+    var detail=this.data.detail[index];
+    // console.log(detail)
+    app.globalData.detail=detail;
+    // console.log(app.globalData.detail)
+    wx.navigateTo({
+      url: '../buy/buy',
+    })
+  },
   switchCategory (e){
+    console.log(e.currentTarget.dataset.id);
     this.setData({
       toView:e.currentTarget.dataset.id,
+      
+      
       curIndex:e.currentTarget.dataset.index?e.currentTarget.dataset.index: 0
     })
   },

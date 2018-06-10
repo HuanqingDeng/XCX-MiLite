@@ -7,17 +7,17 @@
     </scroll-view>
 </view>
 <view class="category-right">
+        <text class="line1"></text>
+        <text class="line2"></text>
     <scroll-view scroll-y="true" class="category-right" scroll-into-view="{{toView}}">
-        <block wx:for="{{detail}}" wx:key="{{item.id}}">
+        <block wx:for="{{detail}}" wx:key="{{item.id}}" >
             <view class="cat-title" id="{{item.id}}">
-                <text class="line"></text>
-                <text class="title">{{item.title}}</text>
-                <text class="line"></text>
-            </view>
-            <view class="product">
-                <view class="pro-desc" wx:for="{{item.detail}}" wx:key="{{index}}" wx:for-item="proItem">
-                    <image class="pro-image" src="{{proItem.image}}"/>
-                    <text class="pro-desc">{{proItem.desc}}</text>
+                <text class="Ttitle">{{item.Ttitle}}</text>
+                <view class="product"bindtap="toDetail"data-index="{{index}}">
+                    <view class="pro-desc" >
+                        <image class="pro-image" src="{{item.image}}"/>
+                        <text class="pro-desc1">{{item.desc1}}</text>
+                    </view>
                 </view>
             </view>
         </block>

@@ -1,12 +1,12 @@
 {
   "pages": [ 
+    "pages/category/category",
     "pages/index/index",
     "pages/index/search/search",
     "pages/buy/buy",
     "pages/cart/cart",
     "pages/index/mbPhone/mbPhone",
     "pages/index/newGs/newGs",
-    "pages/category/category",
     "pages/find/find",
     "pages/user/setting/setting",
     "pages/user/user",

@@ -36,9 +36,9 @@ Page({
     // console.log(detail)
     app.globalData.detail=detail;
     console.log(app.globalData.detail)
-    this.setData({
-      detail:detail
-    })
+    // this.setData({
+    //   detail:detail
+    // })
     wx.navigateTo({
       url: '../buy/buy',
     })
