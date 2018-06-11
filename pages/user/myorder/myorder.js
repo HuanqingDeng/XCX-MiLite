@@ -5,7 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    order:[],
+    hid:false
   },
 
   /**
@@ -14,7 +15,11 @@ Page({
   onLoad: function (options) {
   
   },
-
+  toIndex:function(){
+    wx.switchTab({
+      url: '../../index/index'
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
@@ -26,7 +31,11 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-  
+    if(this.data.order.length>0){
+      this.setdata({
+        hid:true
+      })
+    }
   },
 
   /**
