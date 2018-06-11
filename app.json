@@ -1,10 +1,10 @@
 {
   "pages": [ 
+    "pages/cart/cart",
     "pages/index/index",
     "pages/category/category",
     "pages/index/search/search",
     "pages/buy/buy",
-    "pages/cart/cart",
     "pages/index/mbPhone/mbPhone",
     "pages/index/newGs/newGs",
     "pages/find/find",
@@ -51,8 +51,8 @@
       },
       {
         "pagePath": "pages/cart/cart",
-        "iconPath": "image/41.png",
-        "selectedIconPath": "image/42.png",
+        "iconPath": "image/43.png",
+        "selectedIconPath": "image/43.png",
         "text": "购物车"
       },
       {

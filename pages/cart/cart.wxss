@@ -88,3 +88,48 @@
     color: #fff;
     font-size: 32rpx;
 }
+.null{
+    margin-top: 100rpx;
+    overflow: hidden;
+}
+.null .image image{
+    width: 100rpx;
+    height: 100rpx; 
+   
+}
+.null .image{
+    width: 200rpx;
+    height: 200rpx;
+    background: rgb(201, 199, 199);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.null .desc{
+    width: 400rpx;
+    height: 100rpx;
+    line-height: 100rpx;
+    text-align: center;
+    /* background: rgb(219, 192, 192); */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50rpx;
+}
+.null .btn {
+    width: 580rpx;
+    height: 100rpx;
+    line-height: 100rpx;
+    text-align: center;
+    background: rgb(212, 75, 24);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50rpx;
+    border-radius: 4px;
+    color: #ffffff;
+}
+.hidden{
+    display: none;
+}

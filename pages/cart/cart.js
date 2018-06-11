@@ -5,7 +5,8 @@ Page({
     selectAllStatus:false,
     totalPrice:0,
     payCount:0,
-    carMsg:[]
+    carMsg:[],
+    hid:false
   },
   selectAll: function (e) {
     let selectAllStatus = this.data.selectAllStatus;
@@ -77,16 +78,24 @@ Page({
   onShow: function () {
     this.setData({
       carMsg:[...app.globalData.tocartMsg]
-      
     })
     console.log(this.data.carMsg)
+    if(this.data.carMsg.length>0){
+      this.setData({
+        hid:true
+      })
+    }
   },
-
+  toIndex:function(){
+    wx.switchTab({
+      url: '../index/index'
+    })
+  },
   /**
    * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
-  
+   
   },
 
   /**

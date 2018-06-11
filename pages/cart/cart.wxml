@@ -18,4 +18,15 @@
         <text class="pricCount">{{totalPrice}}元</text>
         <text class="pay">结算{{totalPrice}}元</text>
     </view>
+    <view class="null {{hid?'hidden':''}}">
+        <view class="image">
+            <image src="../../image/41.png"/>
+        </view>
+        <view class="desc">
+            <text>购物车还是空的</text>
+        </view>
+        <view class="btn" bindtap="toIndex">
+            <text>到小米商城逛逛</text>
+        </view>
+    </view>
 </view>
